@@ -36,16 +36,18 @@ body {
     padding-bottom: 1rem;
     font-size: x-large;
     margin: 4.4rem;
+    color: white;
 }
 
 .link {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: .3s;
 }
 
 .link:hover {
-    color: aqua;
+    color: rgb(0, 3, 182);
+    text-shadow: 4px 3px 5px;
 }
 
 .titulo {
