@@ -21,11 +21,19 @@ body {
     box-shadow: 3px 3px 2rem;
     background-color: rgb(216, 216, 216);
     border-radius: 1em;
+    font-size: xx-large;
+    margin: 4.4rem;
+}
+
+.marcas-texto {
     padding-bottom: 2em;
     padding-left: 1em;
     padding-right: 2em;
-    font-size: x-large;
-    margin: 4.4rem;
+}
+
+.empresas {
+    width: 70rem;
+    height: 49rem;
 }
 
 .container-nav {
