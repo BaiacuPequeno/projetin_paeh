@@ -78,3 +78,10 @@ nav:hover:before {
     font-weight: bolder;
 }
 /*----------------*/
+
+
+/*FOOTER*/
+
+footer * {
+    font-size: 1.5rem;
+}
