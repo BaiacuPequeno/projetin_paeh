@@ -1,0 +1,103 @@
+.container2 {
+    border: 1px solid black;
+    box-shadow: 4px 4px 3rem;
+    font-size: x-large;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    margin: 5rem;
+}
+
+.container-texto {
+    font-size: xx-large;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.relato {
+    font-style: italic;
+    font-size: 1.6rem;
+    letter-spacing: -2px;
+}
+
+.marca {
+    text-decoration: underline;
+    transition: .4s;
+}
+
+.marca:hover {
+    color: rgb(0, 123, 255);
+    text-decoration: none;
+}
+
+/*TEXTO DO CAROUSEL*/
+.black {
+    color: black;
+}
+
+.tit_carousel {
+    font-size: 30px;
+    font-weight: 220;
+}
+
+.text_carousel {
+    font-size: 30px;
+    font-weight: 200;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+    /*cor da borda*/
+    border-bottom: black;
+    border-right: black;
+    border-top: white;
+    border-left: white;
+    /*------------*/
+    border-style: groove;
+}
+/*-----------------*/
+
+.carousel-item {
+    height: 820px;
+}
+
+.carousel-item img {
+    width: 1920px;
+    height: 920px;
+}
+
+/*BARRA DE NAVEGAÇÂO*/
+.nav1 {
+    transition: 0.7s all;
+}
+
+.nav1:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav1:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+.nav1-link {
+    transition: all 0.7s;
+}
+
+.nav1-link:hover {
+    font-size: 1.9rem;
+    font-weight: bolder;
+}
+/*----------------*/
