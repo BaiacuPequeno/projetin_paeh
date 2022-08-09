@@ -100,6 +100,16 @@ nav:hover:before {
     padding: 1rem;
 }
 
+.maicon {
+    color: #001797;
+    font-weight: bolder;
+    transition: .3s;
+}
+
+.maicon:hover {
+    text-shadow: 2px 2px 2rem;
+}
+
 /*Footer*/
 
 * {
@@ -178,14 +188,14 @@ nav:hover:before {
 }
 
 .img4 {
-    height: 45px;
+    height: 47px;
     text-align: end;
     width: 40px;
     padding-top: 10px;
 }
 
 .img5 {
-    height: 40px;
+    height: 41px;
     text-align: end;
     width: 34px;
     padding-top: 10px;
