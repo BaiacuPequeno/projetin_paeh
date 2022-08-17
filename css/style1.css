@@ -185,11 +185,33 @@ nav:hover:before {
     font-weight: bolder;
 }
 
+.a8 {
+    color: #001797;
+    transition: .4s;
+    font-weight: bold;
+}
+
+.a8:hover{
+    color: white;
+    text-decoration: none;
+}
+
 /*Footer*/
 
 * {
     margin: 0px;
     padding: 0px;
+}
+
+.logo-home {
+    width: 90px;
+    height: 90px;
+}
+
+.logo{
+    padding-top: 40px;
+    width: 160px;
+    height: 190px;
 }
 
 .rodaPé {
