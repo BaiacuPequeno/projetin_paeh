@@ -25,7 +25,7 @@
 }
 
 .carousel-caption {
-    background-color: rgba(0, 0, 0, 0.205);
+    background-color: rgba(0, 0, 0, 0.404);
     border-radius: 5px;
     /*cor da borda*/
     border-bottom: black;
@@ -35,14 +35,19 @@
     /*------------*/
     border-style: groove;
 }
+
+.carousel-caption h5, .carousel-caption p {
+    color: white;
+}
+
 /*-----------------*/
 
 .carousel-item {
-    height: 820px;
+    height: 800px;
 }
 
 .carousel-item img {
-    width: 1920px;
+    width: 1200px;
     height: 920px;
 }
 
@@ -225,4 +230,56 @@ nav:hover:before {
 
 .p4 {
     padding-top: 10px;
+}
+
+.bg-lprimary {
+    background-color: #8e9fff;
+}
+
+.bg-dprimary {
+    background-color: #5e67995d;
+}
+
+.col-md-3 div {
+    border: 1px dashed black;
+    background-color: #b0bcff;
+    padding: 1rem;
+    padding-top: 1.2rem;
+}
+
+
+@media (min-width: 1000px) {
+    footer img {
+        height: 100px;
+    }
+}
+
+@media (min-width: 650px) {
+    .carousel-item {
+        height: 500px;
+    }
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 350px) {
+    .carousel-caption h5 {
+        font-size: 2.3rem;
+    }
+    .carousel-caption p {
+        font-size: 1.7rem;
+    }
+    footer {
+        font-size: 1.7rem;
+    }
+    .phone span {
+        font-size: 1rem;
+    }
+    .footer h6 {
+        font-size: 1.8rem;
+    }
 }
