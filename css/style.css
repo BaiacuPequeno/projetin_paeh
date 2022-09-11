@@ -123,45 +123,8 @@ nav:hover:before {
     padding: 0px;
 }
 
-.logo-home {
-    width: 90px;
-    height: 90px;
-}
-
-.logo{
-    padding-top: 40px;
-    width: 160px;
-    height: 190px;
-}
-
-.rodaPé {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #001797;
-    min-height: 20rem;
-    color: white;
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.footerMenu {
-    padding-left: 40rem;
-}
-
-.menu {
-    padding-top:  60px;
-    font-size: 1.8rem;
-    padding-bottom: 10px;
-}
-
-.contato {
-    padding-top:  60px;
-    font-size: 1.8rem;
-}
-
-.suba {
-    text-align: inherit;
+.bk {
+    font-weight: 900px;
 }
 
 /*links*/
@@ -170,31 +133,43 @@ nav:hover:before {
     transition: 0.5s;
     margin-top: 3%;
     text-decoration: none;
-    color: antiquewhite;
+    color: #212529;
     padding-right: 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .a2:hover {
-    color: aqua;
+    color: antiquewhite;
     transition: 0.5s;
     text-decoration: none;
     text-shadow: 3px 3px 3rem;
 }
 
-.a3{
-    transition: 0.5s;
-    margin-top: 3%;
+.a3 {
+    color: #212529;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.a3:hover {
     text-decoration: none;
     color: antiquewhite;
-    padding-right: 30px;
-    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
-.a3:hover{
+.a4 {
+    color: #212529;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.a4:hover {
     text-decoration: none;
-    color: aqua;
-    transition: 0.5s;
-    text-shadow: 3px 3px 3rem;
+    color: antiquewhite;
+    font-weight: 500;
+    text-shadow: 2px 2px 3rem;
 }
 
 /*img*/
@@ -221,30 +196,37 @@ nav:hover:before {
 /*fundo azul mais escuro */
 
 .copyright {
-    background-color: #000834;
-    color: white;
-    min-height: 3rem;
+    background-color: #00559b;
+    color: antiquewhite;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .p4 {
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 1.2rem;
 }
 
 .bg-lprimary {
-    background-color: #8e9fff;
+    background-color: #368ed6;
 }
 
 .bg-dprimary {
-    background-color: #5e67995d;
+    background-color: #95969c5d;
 }
 
 .col-md-3 div {
-    border: 1px dashed black;
-    background-color: #b0bcff;
-    padding: 1rem;
+    border: .5px solid rgb(1, 1, 1);
+    border-radius: .5rem;
+    background-color: #70a7d4;
     padding-top: 1.2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.espaçamento {
+    margin-left: 15rem;
 }
 
 

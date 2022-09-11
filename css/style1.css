@@ -5,10 +5,11 @@ body {
 
 .tradicional {
     color: white;
-    border: 2px solid black;
+    border: 1px solid black;
     box-shadow: 3px 3px 5rem rgb(0, 162, 255);
     background-color: rgb(0, 129, 203);
     border-radius: 1em;
+    padding-top: 10px;
     padding-bottom: 2em;
     padding-left: 1em;
     padding-right: 2em;
@@ -17,7 +18,7 @@ body {
 }
 
 .marcas {
-    border: 2px solid black;
+    
     box-shadow: 3px 3px 2rem;
     background-color: rgb(216, 216, 216);
     border-radius: 1em;
@@ -33,8 +34,8 @@ body {
 }
 
 .empresas {
-    width: 70rem;
-    height: 49rem;
+    width: 75rem;
+    height: 65rem;
 }
 
 .container-nav {
@@ -198,116 +199,170 @@ nav:hover:before {
 
 /*Footer*/
 
-* {
-    margin: 0px;
-    padding: 0px;
-}
-
-.logo-home {
-    width: 90px;
-    height: 90px;
-}
-
-.logo{
-    padding-top: 40px;
-    width: 160px;
-    height: 190px;
-}
-
-.rodaPé {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: #001797;
-    min-height: 20rem;
-    color: white;
-    font-size: 1.3rem;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.footerMenu {
-    padding-left: 40rem;
-}
-
-.menu {
-    padding-top:  60px;
-    font-size: 1.8rem;
-    padding-bottom: 10px;
-}
-
-.contato {
-    padding-top:  60px;
-    font-size: 1.8rem;
-}
-
-.suba {
-    text-align: inherit;
-}
-
-/*links*/
-
 .a2 {
     transition: 0.5s;
     margin-top: 3%;
     text-decoration: none;
-    color: antiquewhite;
+    color: #212529;
     padding-right: 30px;
+    font-weight: 600;
+    font-size: 1.5rem;
 }
 
 .a2:hover {
-    color: aqua;
+    color: antiquewhite;
     transition: 0.5s;
     text-decoration: none;
     text-shadow: 3px 3px 3rem;
 }
 
-.a3{
-    transition: 0.5s;
-    margin-top: 3%;
+.a3 {
+    color: #212529;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.a3:hover {
     text-decoration: none;
     color: antiquewhite;
-    padding-right: 30px;
-    padding-bottom: 10px;
+    font-weight: 500;
+    font-size: 1.5rem;
 }
 
-.a3:hover{
+.a4 {
+    color: #212529;
+    font-size: 1.3rem;
+    transition: .3s;
+}
+
+.a4:hover {
     text-decoration: none;
-    color: aqua;
-    transition: 0.5s;
-    text-shadow: 3px 3px 3rem;
+    color: antiquewhite;
+    font-weight: 500;
+    text-shadow: 2px 2px 3rem;
 }
 
 /*img*/
 
-.logo {
-    padding-left: 30px;
-    padding-top:  60px;
+.img9 {
+    padding-top: 50px;
+    padding-left: 15px;
 }
 
-.img4 {
-    height: 45px;
-    text-align: end;
-    width: 40px;
-    padding-top: 10px;
+
+.bg-lprimary {
+    background-color: #368ed6;
 }
 
-.img5 {
-    height: 40px;
-    text-align: end;
-    width: 34px;
-    padding-top: 10px;
+.bg-dprimary {
+    background-color: #95969c5d;
 }
 
-/*fundo azul mais escuro */
+.col-md-3 div {
+    border: .5px solid rgb(1, 1, 1);
+    border-radius: .5rem;
+    background-color: #70a7d4;
+    padding-top: 1.2rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+
+.espaçamento {
+    margin-left: 15rem;
+}
 
 .copyright {
-    background-color: #000834;
-    color: white;
-    min-height: 3rem;
+    background-color: #00559b;
+    color: antiquewhite;
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .p4 {
-    padding-top: 10px;
+    padding-top: 20px;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1300px) {
+    
+    footer img {
+        height: 100px;
+    }
+
+    .empresas {
+        width: 65rem;
+        height: 55rem;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .empresas {
+        width: 55rem;
+        height: 45rem;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .empresas {
+        width: 45rem;
+        height: 35rem;
+    }
+}
+
+@media (max-width: 790px) {
+
+    .empresas {
+        width: 35rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 650px) {
+    
+    .carousel-caption p {
+        font-size: 1.3rem;
+    }
+    .carousel-caption h5 {
+        font-size: 2rem;
+    }
+
+    .empresas {
+        width: 35rem;
+        height: 25rem;
+    }
+}
+
+@media (max-width: 640px) {
+
+    .empresas {
+        width: 23rem;
+        height: 13rem;
+    }
+}
+
+@media (max-width: 320px) {
+    
+    .carousel-caption h5 {
+        font-size: 2.3rem;
+    }
+    .carousel-caption p {
+        font-size: 1.7rem;
+    }
+    footer {
+        font-size: 1.7rem;
+    }
+    .phone span {
+        font-size: 1rem;
+    }
+    .footer h6 {
+        font-size: 1.8rem;
+    }
+
+    .empresas {
+        width: 17,5rem;
+        height: 12,5rem;
+    }
 }
